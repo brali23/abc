@@ -39,3 +39,32 @@ for col_name in df1.columns.values[1:100]:
 ## 	years[name.year] = group.values
 ## years.boxplot()
 ## pyplot.show()
+
+
+-------------
+
+# df1=df[['Date','Woodproduct']]
+# df1
+
+# df.plot(x='Date')
+# plt.show()
+
+# df = pd.read_csv('IPData.csv')
+# df.head()
+# ind_group = pd.read_csv('Industry_Group.csv')
+
+# df1=df.melt(id_vars='Series Description', var_name='Category_Name')
+
+# df2 = df1.merge(ind_group, left_on='Category_Name', right_on='Category_Name') 
+# df2
+
+
+# df2['Date'] = pd.to_datetime(df2['Series Description']) 
+# df2 = df2[df2['Date']>'1/1/2010']
+# df2
+
+# abc = df2['Category'].unique().tolist()
+# abc
+
+for i in abc:
+    print (i)
