@@ -1,0 +1,41 @@
+import pandas as pd
+import numpy as np
+import os
+import matplotlib
+import matplotlib.pyplot as plt
+import datetime
+
+
+# df1=df[['Date','Woodproduct']]
+# df1
+
+# df.plot(x='Date')
+# plt.show()
+
+df = pd.read_csv('IPData.csv')
+df.head()
+
+df['Date'] = pd.to_datetime(df['Series Description']) 
+df1 = df[df['Date']>'1/1/2010']
+                            
+for col_name in df1.columns.values[1:100]:
+        df1.plot(x='Date', y=[col_name])
+       
+         
+# df2=df[["Date", i]]
+# # df2.plot(subplots=True, legend=False)
+# pyplot.show()
+
+
+# %matplotlib inline
+# fig, ax = plt.subplots(figsize=(10, 6))
+# ax.plot(df.Date, df.Woodproduct)
+
+
+
+# x = df['Wood product (NAICS = 321)']
+
+## for name, group in groups:
+## 	years[name.year] = group.values
+## years.boxplot()
+## pyplot.show()
