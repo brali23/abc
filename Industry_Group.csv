@@ -1,0 +1,32 @@
+Category_Name,Category
+Manufacturing (SIC); s.a. IP,Main
+Crude processing (capacity); s.a. IP,Energy
+Primary & semifinished processing (capacity); s.a. IP,Main
+Finished processing (capacity); s.a. IP,Main
+Mining  (NAICS = 21); s.a. IP,Energy
+"Electric power generation, transmission, and distribution  (NAICS = 2211); s.a. IP",Energy
+"Electric and gas utilities  (NAICS = 2211,2); s.a. IP",Energy
+Natural gas distribution  (NAICS = 2212); s.a. IP,Utilities
+"Food, beverage, and tobacco  (NAICS = 311,2); s.a. IP",Non-Durableurable
+"Textiles and products  (NAICS = 313,4); s.a. IP",Non-Durableurable
+"Apparel and leather goods  (NAICS = 315,6); s.a. IP",Non-Durableurable
+Wood product  (NAICS = 321); s.a. IP,Durable
+Paper  (NAICS = 322); s.a. IP,Non-Durableurable
+Printing and related support activities  (NAICS = 323); s.a. IP,Non-Durableurable
+Petroleum and coal products  (NAICS = 324); s.a. IP,Non-Durableurable
+Chemical  (NAICS = 325); s.a. IP,Non-Durableurable
+Plastics and rubber products  (NAICS = 326); s.a. IP,Non-Durableurable
+Nonmetallic mineral product  (NAICS = 327); s.a. IP,Durable
+Primary metal  (NAICS = 331); s.a. IP,Durable
+Fabricated metal product  (NAICS = 332); s.a. IP,Durable
+Machinery  (NAICS = 333); s.a. IP,Durable
+Computer and electronic product  (NAICS = 334); s.a. IP,Durable
+"Electrical equipment, appliance, and component  (NAICS = 335); s.a. IP",Durable
+Motor vehicles and parts  (NAICS = 3361-3); s.a. IP,Durable
+Aerospace and miscellaneous transportation eq.  (NAICS = 3364-9); s.a. IP,Durable
+Furniture and related product  (NAICS = 337); s.a. IP,Durable
+Miscellaneous  (NAICS = 339); s.a. IP,Durable
+Manufacturing (NAICS); s.a. IP,Main
+Durable manufacturing (NAICS); s.a. IP,Main
+Nondurable manufacturing (NAICS); s.a. IP,Main
+Other manufacturing; s.a. IP,Main
